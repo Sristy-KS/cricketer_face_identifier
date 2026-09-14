@@ -1,19 +1,14 @@
 # Virtual Environment
 venv/
 env/
-ENV/
 
-# Python Cache
+# Python & Streamlit Cache
 __pycache__/
 *.py[cod]
-*$py.class
-.pytest_cache/
-
-# Streamlit Cache
 .streamlit/
-
-# DeepFace and Pre-trained model caches
 .deepface/
+
+# Generated models and large cache files
 models/*.caffemodel
 models/*.keras
 models/*.h5
